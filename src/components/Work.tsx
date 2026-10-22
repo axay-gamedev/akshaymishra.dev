@@ -31,6 +31,14 @@ const projects = [
     alt: "AI WebAssistant project preview",
     href: "https://github.com/axay-gamedev",
   },
+  {
+    name: "Asylumm",
+    category: "Unity game · Horror / atmospheric exploration",
+    tools: "Unity Engine, C#, Game Design, 3D Environment",
+    image: "/images/placeholder.webp",
+    alt: "Asylumm horror game preview",
+    href: "https://axayteehee.itch.io/asylumm",
+  },
 ];
 
 const Work = () => {
@@ -90,7 +98,7 @@ const Work = () => {
                 <p>{project.tools}</p>
                 <p><a href={project.href} target="_blank" rel="noreferrer">View project ↗</a></p>
               </div>
-              <WorkImage image={project.image} alt={project.alt} />
+              <WorkImage image={project.image} alt={project.alt} link={project.href} />
             </div>
           ))}
         </div>
