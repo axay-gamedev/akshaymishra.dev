@@ -4,9 +4,9 @@ import InfiniteSpiral from "./InfiniteSpiral";
 const TechStack = () => {
   const technologies = useMemo(
     () => [
-      { id: "react", src: "/images/react2.webp", alt: "React logo", label: "React" },
-      { id: "next", src: "/images/next2.webp", alt: "Next.js logo", label: "Next.js" },
-      { id: "node", src: "/images/node2.webp", alt: "Node.js logo", label: "Node.js" },
+      { id: "react", src: "/images/react.webp", alt: "React logo", label: "React" },
+      { id: "next", src: "/images/next.webp", alt: "Next.js logo", label: "Next.js" },
+      { id: "node", src: "/images/node.webp", alt: "Node.js logo", label: "Node.js" },
       { id: "express", src: "/images/express.webp", alt: "Express logo", label: "Express" },
       { id: "mongodb", src: "/images/mongo.webp", alt: "MongoDB logo", label: "MongoDB" },
       { id: "javascript", src: "/images/javascript.webp", alt: "JavaScript logo", label: "JavaScript" },

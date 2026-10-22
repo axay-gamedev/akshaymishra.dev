@@ -18,7 +18,7 @@ const Career = () => {
                 <h4>Open Source Contributor</h4>
                 <h5>CyberChef · GCHQ · Remote</h5>
               </div>
-              <h3>Aug 2026</h3>
+              <h3>2026</h3>
             </div>
             <p>
               Diagnosed an issue in CyberChef's fromDecimal operation where
@@ -31,17 +31,26 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Open Source Contributor</h4>
-                <h5>CyberChef · GCHQ · Remote</h5>
+                <h4>Data Structures and Algorithms</h4>
+                <h5>c++</h5>
               </div>
-              <h3>Aug 2026</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Diagnosed an issue in CyberChef's fromDecimal operation where
-              Auto delimiter detection could miss data. Submitted a unit-tested
-              fix using the existing detectDelim utility to correctly parse
-              multi-number input.
-              <br /><a href="https://github.com/gchq/CyberChef/pull/2670" target="_blank" rel="noreferrer">View pull request #2670 ↗</a>
+              i learned dsa in c++ write it so as to put in portfolio
+Data Structures & Algorithms (C++) — Practiced problem-solving using C++, covering arrays, strings, linked lists, stacks, queues, trees, graphs, recursion, sorting, searching, and dynamic programming. Strengthened algorithmic thinking through consistent LeetCode practice.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Fullstack Developer</h4>
+                <h5>MERN STACK</h5>
+              </div>
+              <h3>2024</h3>
+            </div>
+            <p>
+              Learned MERN stack and applied my skills into freelancing and startup internships
             </p>
           </div>
           <div className="career-info-box">
@@ -50,7 +59,7 @@ const Career = () => {
                 <h4>Tech Team Core Member</h4>
                 <h5>St Mary's Academy · Meerut</h5>
               </div>
-              <h3>2022–2023</h3>
+              <h3>2023</h3>
             </div>
             <p>
               Co-organized the school's COSMA technology festival, helping with

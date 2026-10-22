@@ -56,17 +56,17 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/akshayymishraa/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com" target="_blank" rel="noreferrer" aria-label="X">
+          <a href="https://x.com/akshayyyu" target="_blank" rel="noreferrer" aria-label="X">
             <FaXTwitter />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com" target="_blank" rel="noreferrer" aria-label="Instagram">
+          <a href="https://www.instagram.com/axay.y_y/" target="_blank" rel="noreferrer" aria-label="Instagram">
             <FaInstagram />
           </a>
         </span>

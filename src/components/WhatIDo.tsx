@@ -92,12 +92,10 @@ const WhatIDo = () => {
               </p>
               <h5>Skills & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Gemini API</div>
-                <div className="what-tags">Firebase</div>
-                <div className="what-tags">Firestore</div>
-                <div className="what-tags">Chrome Extensions</div>
-                <div className="what-tags">Manifest V3</div>
                 <div className="what-tags">HTML</div>
+                <div className="what-tags">Python</div>
+                <div className="what-tags">Numpy</div>
+                <div className="what-tags">Pandas</div>
                 <div className="what-tags">CSS</div>
                 <div className="what-tags">Git</div>
                 <div className="what-tags">GitHub</div>
