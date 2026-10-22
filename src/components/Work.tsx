@@ -32,11 +32,11 @@ const projects = [
     href: "https://github.com/axay-gamedev",
   },
   {
-    name: "Asylumm",
-    category: "Unity game · Horror / atmospheric exploration",
-    tools: "Unity Engine, C#, Game Design, 3D Environment",
-    image: "/images/placeholder.webp",
-    alt: "Asylumm horror game preview",
+    name: "Asylum",
+    category: "First-person psychological horror game",
+    tools: "Unity Engine, C#, Gameplay Scripting, 3D Environments",
+    image: "https://img.itch.zone/aW1nLzExMzIxNDE0LnBuZw%3D%3D/original/PvsudF.png",
+    alt: "Asylum horror game cover",
     href: "https://axayteehee.itch.io/asylumm",
   },
 ];
