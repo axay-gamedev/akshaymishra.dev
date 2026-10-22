@@ -3,6 +3,7 @@ import "./styles/InfiniteSpiral.css";
 
 type SpiralItem = {
   src: string;
+  fallbackSrc?: string;
   alt: string;
   label?: string;
   id?: string;
@@ -264,6 +265,12 @@ const InfiniteSpiral = ({
               style={{
                 objectFit: "contain",
                 filter: `drop-shadow(0 2px 10px rgb(194 164 255 / 0.14)) grayscale(${Math.min(1, Math.max(0, grayscale))})`,
+              }}
+              onError={(event) => {
+                const image = event.currentTarget;
+                const fallback = normalizedItems[index]?.fallbackSrc;
+                if (fallback && image.src !== fallback) image.src = fallback;
+                else image.style.visibility = "hidden";
               }}
             />
             <span className="infinite-spiral__label">{item.label ?? item.alt}</span>
