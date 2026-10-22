@@ -24,10 +24,8 @@ const MainContainer = ({ children }: PropsWithChildren) => {
     };
     resizeHandler();
     window.addEventListener("resize", resizeHandler);
-    return () => {
-      window.removeEventListener("resize", resizeHandler);
-    };
-  }, [isDesktopView]);
+    return () => window.removeEventListener("resize", resizeHandler);
+  }, []);
 
   return (
     <div className="container-main">
@@ -43,11 +41,9 @@ const MainContainer = ({ children }: PropsWithChildren) => {
             <WhatIDo />
             <Career />
             <Work />
-            {isDesktopView && (
-              <Suspense fallback={<div>Loading....</div>}>
-                <TechStack />
-              </Suspense>
-            )}
+            <Suspense fallback={<div className="techstack-loading">Loading tech stack…</div>}>
+              <TechStack />
+            </Suspense>
             <Contact />
           </div>
         </div>
