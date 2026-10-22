@@ -1,41 +1,46 @@
 import { useMemo } from "react";
 import InfiniteSpiral from "./InfiniteSpiral";
 
+const technologies = [
+  { id: "react", src: "https://cdn.simpleicons.org/react/61DAFB", alt: "React logo", label: "React" },
+  { id: "next", src: "https://cdn.simpleicons.org/nextdotjs/FFFFFF", alt: "Next.js logo", label: "Next.js" },
+  { id: "node", src: "https://cdn.simpleicons.org/nodedotjs/5FA04E", alt: "Node.js logo", label: "Node.js" },
+  { id: "express", src: "https://cdn.simpleicons.org/express/FFFFFF", alt: "Express logo", label: "Express" },
+  { id: "mongodb", src: "https://cdn.simpleicons.org/mongodb/47A248", alt: "MongoDB logo", label: "MongoDB" },
+  { id: "javascript", src: "https://cdn.simpleicons.org/javascript/F7DF1E", alt: "JavaScript logo", label: "JavaScript" },
+  { id: "typescript", src: "https://cdn.simpleicons.org/typescript/3178C6", alt: "TypeScript logo", label: "TypeScript" },
+  { id: "mysql", src: "https://cdn.simpleicons.org/mysql/4479A1", alt: "MySQL logo", label: "MySQL" },
+  { id: "html", src: "https://cdn.simpleicons.org/html5/E34F26", alt: "HTML5 logo", label: "HTML5" },
+  { id: "css", src: "https://cdn.simpleicons.org/css3/1572B6", alt: "CSS3 logo", label: "CSS3" },
+  { id: "tailwind", src: "https://cdn.simpleicons.org/tailwindcss/06B6D4", alt: "Tailwind CSS logo", label: "Tailwind" },
+  { id: "python", src: "https://cdn.simpleicons.org/python/3776AB", alt: "Python logo", label: "Python" },
+  { id: "cpp", src: "https://cdn.simpleicons.org/cplusplus/00599C", alt: "C++ logo", label: "C++" },
+  { id: "firebase", src: "https://cdn.simpleicons.org/firebase/FFCA28", alt: "Firebase logo", label: "Firebase" },
+  { id: "git", src: "https://cdn.simpleicons.org/git/F05032", alt: "Git logo", label: "Git" },
+  { id: "unity", src: "https://cdn.simpleicons.org/unity/FFFFFF", alt: "Unity logo", label: "Unity" },
+];
+
 const TechStack = () => {
-  const technologies = useMemo(
-    () => [
-      { id: "react", src: "/images/react.webp", alt: "React logo", label: "React" },
-      { id: "next", src: "/images/next.webp", alt: "Next.js logo", label: "Next.js" },
-      { id: "node", src: "/images/node.webp", alt: "Node.js logo", label: "Node.js" },
-      { id: "express", src: "/images/express.webp", alt: "Express logo", label: "Express" },
-      { id: "mongodb", src: "/images/mongo.webp", alt: "MongoDB logo", label: "MongoDB" },
-      { id: "javascript", src: "/images/javascript.webp", alt: "JavaScript logo", label: "JavaScript" },
-      { id: "typescript", src: "/images/typescript.webp", alt: "TypeScript logo", label: "TypeScript" },
-      { id: "mysql", src: "/images/mysql.webp", alt: "MySQL logo", label: "MySQL" },
-      { id: "html", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", alt: "HTML5 logo", label: "HTML5" },
-      { id: "css", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", alt: "CSS3 logo", label: "CSS3" },
-    ],
-    [],
-  );
+  const items = useMemo(() => technologies, []);
 
   return (
     <section className="techstack" id="techstack" aria-label="Technology stack">
       <h2>My Techstack</h2>
       <div className="techstack-spiral">
         <InfiniteSpiral
-          items={technologies}
+          items={items}
           animationMode="all"
           direction="up"
-          speed={0.34}
-          radius={250}
-          cardWidth={124}
-          cardHeight={124}
-          verticalSpacing={70}
+          speed={0.32}
+          radius={248}
+          cardWidth={126}
+          cardHeight={126}
+          verticalSpacing={68}
           perspective={1050}
-          cardRadius={18}
-          centerScale={1.16}
+          cardRadius={20}
+          centerScale={1.17}
           edgeBlur={3}
-          edgeFade={0.18}
+          edgeFade={0.16}
           cardsPerTurn={8}
           pauseOnHover
         />
