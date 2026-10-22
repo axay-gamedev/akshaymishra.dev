@@ -10,8 +10,8 @@ const technologies = [
   { id: "javascript", src: "https://cdn.simpleicons.org/javascript/F7DF1E", alt: "JavaScript logo", label: "JavaScript" },
   { id: "typescript", src: "https://cdn.simpleicons.org/typescript/3178C6", alt: "TypeScript logo", label: "TypeScript" },
   { id: "mysql", src: "https://cdn.simpleicons.org/mysql/4479A1", alt: "MySQL logo", label: "MySQL" },
-  { id: "html", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", alt: "HTML5 logo", label: "HTML5" },
-  { id: "css", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", alt: "CSS3 logo", label: "CSS3" },
+  { id: "html", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg", fallbackSrc: "https://cdn.simpleicons.org/html5/E34F26", alt: "HTML5 logo", label: "HTML5" },
+  { id: "css", src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg", fallbackSrc: "https://cdn.simpleicons.org/css3/1572B6", alt: "CSS3 logo", label: "CSS3" },
   { id: "tailwind", src: "https://cdn.simpleicons.org/tailwindcss/06B6D4", alt: "Tailwind CSS logo", label: "Tailwind" },
   { id: "python", src: "https://cdn.simpleicons.org/python/3776AB", alt: "Python logo", label: "Python" },
   { id: "cpp", src: "https://cdn.simpleicons.org/cplusplus/00599C", alt: "C++ logo", label: "C++" },
@@ -32,10 +32,10 @@ const TechStack = () => {
           animationMode="all"
           direction="up"
           speed={0.32}
-          radius={205}
+          radius={178}
           cardWidth={104}
           cardHeight={104}
-          verticalSpacing={44}
+          verticalSpacing={32}
           perspective={1050}
           cardRadius={20}
           centerScale={1.17}
