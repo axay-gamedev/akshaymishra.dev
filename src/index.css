@@ -91,11 +91,11 @@ body {
 .techstack {
   width: 100%;
   position: relative;
-  height: var(--vh);
-  min-height: 560px;
-  margin: auto;
-  margin-top: 50px;
-  margin-bottom: -100px;
+  height: clamp(620px, 100svh, 920px);
+  min-height: 620px;
+  margin: 72px auto 0;
+  padding: 0;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,9 +106,10 @@ body {
   text-align: center;
   position: absolute;
   width: 100%;
-  top: 120px;
+  top: clamp(44px, 8vh, 82px);
   left: 0;
   margin: 0;
+  line-height: 0.98;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: -0.04em;
@@ -118,10 +119,9 @@ body {
 
 .techstack-spiral {
   position: absolute;
-  inset: 20% 0 5%;
-  width: 100%;
-  max-width: 1300px;
-  margin: auto;
+  inset: 25% 0 9%;
+  width: min(100%, 1120px);
+  margin: 0 auto;
 }
 .techstack-caption {
   position: absolute;
@@ -143,14 +143,16 @@ body {
 }
 @media screen and (max-width: 900px) {
   .techstack {
-    min-height: 540px;
-    margin-top: 20px;
+    height: 650px;
+    min-height: 580px;
+    margin-top: 36px;
   }
   .techstack h2 {
     font-size: 40px;
   }
   .techstack-spiral {
-    inset: 22% 0 8%;
+    inset: 24% 0 10%;
+    width: 100%;
   }
   .techstack-caption {
     bottom: 22px;
@@ -160,9 +162,15 @@ body {
 }
 @media screen and (max-width: 480px) {
   .techstack {
-    min-height: 480px;
+    height: 560px;
+    min-height: 560px;
+    margin-top: 24px;
+  }
+  .techstack h2 {
+    top: 42px;
+    font-size: clamp(30px, 8.5vw, 40px);
   }
   .techstack-spiral {
-    inset: 23% -3% 8%;
+    inset: 22% 0 10%;
   }
 }
