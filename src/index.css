@@ -119,7 +119,7 @@ body {
 
 .techstack-spiral {
   position: absolute;
-  inset: 25% 0 9%;
+  inset: 30% 0 10%;
   width: min(100%, 1120px);
   margin: 0 auto;
 }
@@ -151,7 +151,7 @@ body {
     font-size: 40px;
   }
   .techstack-spiral {
-    inset: 24% 0 10%;
+    inset: 26% 0 10%;
     width: 100%;
   }
   .techstack-caption {
@@ -171,6 +171,6 @@ body {
     font-size: clamp(30px, 8.5vw, 40px);
   }
   .techstack-spiral {
-    inset: 22% 0 10%;
+    inset: 24% 0 10%;
   }
 }
