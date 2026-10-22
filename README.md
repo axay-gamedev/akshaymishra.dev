@@ -1,65 +1,31 @@
-# My Portfolio Website - Overview 🚀
+# Akshay Mishra — Developer Portfolio
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+A personal portfolio for Akshay Mishra, a Computer Science and Engineering (AI & ML) student at Harcourt Butler Technical University.
 
----
+## Direction
 
-## ⚠️ Usage Notice
+This version is an independent redesign with an editorial, print-inspired visual system: warm paper tones, forest-green accents, oversized serif details, a compact mono label system, responsive project case studies, and custom CSS illustrations. It intentionally does not reuse the original template's 3D character-led presentation.
 
-This project is shared for learning purposes only.
+## Featured work
 
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
+- **SkillFORGE** — AI-assisted career planning and learning roadmaps.
+- **Photobooth** — a two-person virtual photobooth using WebRTC and Socket.IO.
+- **AI WebAssistant** — a browser extension concept for summarising pages, videos, and PDFs.
+- **CyberChef contribution** — a unit-tested parsing fix in [PR #2670](https://github.com/gchq/CyberChef/pull/2670).
 
-If you use parts of the code, you must provide proper credit linking back to the original repository.
+## Tech stack
 
-Build your own version — don’t just copy.
+React · TypeScript · Vite · CSS
 
-— Moncy Yohannan
+## Run locally
 
----
+```bash
+npm install
+npm run dev
+```
 
-## 🛠️ Instructions
+Create a production build with `npm run build`.
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
+## Notes
 
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
-
----
-
-## 🎨 Assets Usage
-
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
-
----
-
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
-
----
-
-## 📄 License
-
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+Project descriptions reflect the portfolio owner's resume. Links can be updated as projects and profiles evolve.
