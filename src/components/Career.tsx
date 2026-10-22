@@ -37,8 +37,7 @@ const Career = () => {
               <h3>2025</h3>
             </div>
             <p>
-              i learned dsa in c++ write it so as to put in portfolio
-Data Structures & Algorithms (C++) — Practiced problem-solving using C++, covering arrays, strings, linked lists, stacks, queues, trees, graphs, recursion, sorting, searching, and dynamic programming. Strengthened algorithmic thinking through consistent LeetCode practice.
+              Data Structures & Algorithms (C++) — Practiced problem-solving using C++, covering arrays, strings, linked lists, stacks, queues, trees, graphs, recursion, sorting, searching, and dynamic programming. Strengthened algorithmic thinking through consistent LeetCode practice.
             </p>
           </div>
           <div className="career-info-box">
