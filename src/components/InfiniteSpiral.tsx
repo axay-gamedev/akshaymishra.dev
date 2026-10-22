@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from "react";
+import { useEffect, useMemo, useRef, type CSSProperties, type PointerEvent } from "react";
 import "./styles/InfiniteSpiral.css";
 
 type SpiralItem = {
@@ -194,7 +194,7 @@ const InfiniteSpiral = ({
 
   const dragEnabled = animationMode === "drag" || animationMode === "all";
 
-  const stopDragging = (event: React.PointerEvent<HTMLDivElement>) => {
+  const stopDragging = (event: PointerEvent<HTMLDivElement>) => {
     if (!draggingRef.current) return;
     draggingRef.current = false;
     if (event.currentTarget.hasPointerCapture(event.pointerId)) {
@@ -215,7 +215,7 @@ const InfiniteSpiral = ({
         cursor: dragEnabled ? "grab" : "default",
         touchAction: dragEnabled ? "pan-x" : "auto",
         userSelect: dragEnabled ? "none" : "auto",
-      } as React.CSSProperties}
+      } as CSSProperties}
       onMouseEnter={() => (hoveredRef.current = true)}
       onMouseLeave={() => (hoveredRef.current = false)}
       onPointerDown={(event) => {
