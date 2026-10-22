@@ -55,6 +55,20 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
+                <h4>Game Developer</h4>
+                <h5>Unity Engine · C#</h5>
+              </div>
+              <h3>2022</h3>
+            </div>
+            <p>
+              Began developing interactive games and 3D experiences with Unity,
+              exploring scene building, gameplay scripting in C#, and core
+              game-development workflows.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
                 <h4>Tech Team Core Member</h4>
                 <h5>St Mary's Academy · Meerut</h5>
               </div>
