@@ -10,58 +10,32 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:example@mail.com" data-cursor="disable">
-                example@mail.com
+              <a href="mailto:akshaymishra200701@gmail.com" data-cursor="disable">
+                akshaymishra200701@gmail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+9199999999" data-cursor="disable">
-                +91 99999 99999
+              <a href="tel:+919084804772" data-cursor="disable">
+                +91 90848 04772
               </a>
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
-            <a
-              href="https://github.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
+            <a href="https://github.com/axay-gamedev" target="_blank" rel="noreferrer" data-cursor="disable" className="contact-social">
+              GitHub <MdArrowOutward />
             </a>
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href="https://x.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+            <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" data-cursor="disable" className="contact-social">
+              LinkedIn <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Moncy Yohannan</span>
+              Computer Science & Engineering <br /> <span>AI & ML · HBTU Kanpur</span>
             </h2>
             <h5>
-              <MdCopyright /> 2024
+              <MdCopyright /> {new Date().getFullYear()} Akshay Mishra
             </h5>
           </div>
         </div>
