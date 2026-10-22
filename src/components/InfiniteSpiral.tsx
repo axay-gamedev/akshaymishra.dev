@@ -263,7 +263,7 @@ const InfiniteSpiral = ({
               draggable={false}
               style={{
                 objectFit: "contain",
-                filter: `grayscale(${Math.min(1, Math.max(0, grayscale))})`,
+                filter: `drop-shadow(0 2px 10px rgb(194 164 255 / 0.14)) grayscale(${Math.min(1, Math.max(0, grayscale))})`,
               }}
             />
             <span className="infinite-spiral__label">{item.label ?? item.alt}</span>
