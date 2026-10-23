@@ -82,7 +82,7 @@
   width: 3px;
   height: 100%;
   background-image: linear-gradient(
-    to top,
+    to bottom,
     #aa42ff 20%,
     var(--accentColor) 50%,
     transparent 95%
@@ -91,9 +91,9 @@
 }
 .career-dot {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
   background-color: #aa42ff;
   width: 10px;
   height: 10px;
