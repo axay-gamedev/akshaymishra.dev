@@ -25,7 +25,8 @@ const Career = () => {
               exploring scene building, gameplay scripting in C#, and core
               game-development workflows.
             </p>
-          </div>          <div className="career-info-box">
+          </div>
+          <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Tech Team Core Member</h4>
