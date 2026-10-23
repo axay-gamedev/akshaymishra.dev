@@ -51,7 +51,7 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>FULL-STACK</h3>
+              <h3>WEB DEVELOPMENT</h3>
               <h4>What I build</h4>
               <p>
                 Responsive web applications and REST APIs, from interactive
@@ -83,7 +83,7 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>APPLIED AI</h3>
+              <h3>AI ML</h3>
               <h4>What I explore</h4>
               <p>
                 AI-assisted products that turn information into useful actions:
