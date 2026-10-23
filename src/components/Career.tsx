@@ -15,44 +15,17 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Open Source Contributor</h4>
-                <h5>CyberChef · GCHQ · Remote</h5>
+                <h4>Game Developer</h4>
+                <h5>Unity Engine · C#</h5>
               </div>
-              <h3>2026</h3>
+              <h3>2022</h3>
             </div>
             <p>
-              Diagnosed an issue in CyberChef's fromDecimal operation where
-              Auto delimiter detection could miss data. Submitted a unit-tested
-              fix using the existing detectDelim utility to correctly parse
-              multi-number input.
-              <br /><a href="https://github.com/gchq/CyberChef/pull/2670" target="_blank" rel="noreferrer">View pull request #2670 ↗</a>
+              Began developing interactive games and 3D experiences with Unity,
+              exploring scene building, gameplay scripting in C#, and core
+              game-development workflows.
             </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Data Structures and Algorithms</h4>
-                <h5>c++</h5>
-              </div>
-              <h3>2025</h3>
-            </div>
-            <p>
-              Data Structures & Algorithms (C++) — Practiced problem-solving using C++, covering arrays, strings, linked lists, stacks, queues, trees, graphs, recursion, sorting, searching, and dynamic programming. Strengthened algorithmic thinking through consistent LeetCode practice.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Fullstack Developer</h4>
-                <h5>MERN STACK</h5>
-              </div>
-              <h3>2024</h3>
-            </div>
-            <p>
-              Learned MERN stack and applied my skills into freelancing and startup internships
-            </p>
-          </div>
-          <div className="career-info-box">
+          </div>          <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
                 <h4>Tech Team Core Member</h4>
@@ -70,17 +43,44 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Game Developer</h4>
-                <h5>Unity Engine · C#</h5>
+                <h4>Fullstack Developer</h4>
+                <h5>MERN STACK</h5>
               </div>
-              <h3>2022</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Began developing interactive games and 3D experiences with Unity,
-              exploring scene building, gameplay scripting in C#, and core
-              game-development workflows.
+              Learned MERN stack and applied my skills into freelancing and startup internships
             </p>
           </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Data Structures and Algorithms</h4>
+                <h5>c++</h5>
+              </div>
+              <h3>2025</h3>
+            </div>
+            <p>
+              Data Structures & Algorithms (C++) — Practiced problem-solving using C++, covering arrays, strings, linked lists, stacks, queues, trees, graphs, recursion, sorting, searching, and dynamic programming. Strengthened algorithmic thinking through consistent LeetCode practice.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Open Source Contributor</h4>
+                <h5>CyberChef · GCHQ · Remote</h5>
+              </div>
+              <h3>2026</h3>
+            </div>
+            <p>
+              Diagnosed an issue in CyberChef's fromDecimal operation where
+              Auto delimiter detection could miss data. Submitted a unit-tested
+              fix using the existing detectDelim utility to correctly parse
+              multi-number input.
+              <br /><a href="https://github.com/gchq/CyberChef/pull/2670" target="_blank" rel="noreferrer">View pull request #2670 ↗</a>
+            </p>
+          </div>
+
         </div>
       </div>
     </div>
